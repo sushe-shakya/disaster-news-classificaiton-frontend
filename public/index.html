@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home | Disaster News Classification</title>
+    <link rel="icon" type="img/icon" href="img/logo.jpg">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+</head>
+
+<body style="background-color: #e9ebee;" class="font-ashok">
+    <!-- NAV BAR-->
+
+
+    <nav>
+        <div class="nav-wrapper" style="background-color: #0e3569; padding: 0px 50px;">
+            <a href=" index.html " style="vertical-align: top;"><i class="material-icons"
+                    style="display: inline-block; margin-right: 5px;line-height: 60px;">home</i>Disaster Related
+                News</a>
+
+            <ul id="nav-mobile " class="right hide-on-med-and-down ">
+                <li><a href="index.html " class="a-jong active">Home</a></li>
+                <li><a href="test.html " class="a-jong">Keyword Test</a></li>
+                <li><a href="documentation.html  " class="a-jong">Documentation</a></li>
+                <li><a href="ourteam.html " class="a-jong">Our Team</a></li>
+                <li><a href="aboutus.html " class="a-jong">About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- BODY START HERE-->
+
+    <div style="margin: 30px 40px;">
+        <!-- Page Layout here -->
+        <div class="row nav-wrapper">
+
+            <div class="col s3">
+
+                <ul class="collection with-header ">
+                    <li class="collection-header ">
+                        <h5 style="display: flex;align-items: center;"><i class="material-icons">add</i>News Categories
+                        </h5>
+                        <li class="collection-item hover-ashok">
+                            <h6>Natural Disaster</h6>
+                        </li>
+
+                        <li class="collection-item hover-ashok" style="padding-left: 35px;display: flex;align-items: center;"><i class="material-icons"> arrow_forward</i>Landslide</li>
+                        <li class="collection-item hover-ashok" style="padding-left: 35px;display: flex;align-items: center;"><i class="material-icons"> arrow_forward</i>Earthquake</li>
+                        <li class="collection-item hover-ashok" style="padding-left: 35px;display: flex;align-items: center;"><i class="material-icons"> arrow_forward</i>Volcano</li>
+                        <li class="collection-item hover-ashok" style="padding-left: 35px;display: flex;align-items: center;"><i class="material-icons"> arrow_forward</i>Flood</li>
+
+                        <li class="collection-item hover-ashok">
+                            <h6>Man Made Disaster</h6>
+                        </li>
+                        <li class="collection-item hover-ashok" style="padding-left: 35px;display: flex;align-items: center;"><i class="material-icons"> arrow_forward</i>Fire</li>
+                        <li class="collection-item hover-ashok" style="padding-left: 35px;display: flex;align-items: center;"><i class="material-icons"> arrow_forward</i>Wars</li>
+                        <li class="collection-item hover-ashok" style="padding-left: 35px;display: flex;align-items: center;"><i class="material-icons"> arrow_forward</i>Air Pollution</li>
+                </ul>
+
+            </div>
+
+            <div class="col s9" style="margin-top: 10px;">
+                <!-- Teal page content  -->
+
+
+                <style>
+                    .carousel {
+                        height: 420px !important;
+                    }
+                </style>
+
+                <div class="carousel carousel-slider" style=" overflow: hidden;">
+                    <a class="carousel-item" href="#one!"><img src="img/slider3.jpg">
+                    </a>
+                    <a class="carousel-item" href="#two!"><img src="img/image.png"></a>
+
+                    <a class="carousel-item" href="#two!"><img src="img/slider1.png"></a>
+                    <a class="carousel-item" href="#two!"><img src="img/slider4.jpg"></a>
+                </div>
+
+                <div id="root"></div>
+
+                <!--Dispaly section starts here-->
+                <!--Single section starts here-->
+                <!-- <div class="section section-ashok">
+                    <div style="margin-bottom: 10px;">
+                        <h5 style="display: inline !important"> The Kathmandu Post.</h5>
+                        <small class="strikedate-ashok"><i
+                                class="material-icons " style= "margin-right: 4px;"> date_range</i><div style = "margin-top:3px">Strike Date:
+                                    2019-07-26</div></small>
+                    </div>
+                    <div class="divider"></div>
+                    <p>Limchungbung Rural Municipality in Udayapur declared a crisis zone. “The landslides and floods, which have greatly affected various road sections here, have disrupted normal life,” said Major Kumar Rai, chairman of the rural municipality.
+                        <a href="https://kathmandupost.com/province-no-1/2019/07/23/limchungbung-rural-municipality-in-udayapur-declared-a-crisis-zone">....read more
+                            </a>
+                    </p>
+
+                </div> -->
+                <!--Single sections Ends here-->
+                <!-- <div class="section section-ashok">
+
+                    <div style="margin-bottom: 10px;">
+                        <h5 style="display: inline !important"> Nepal Flood Alert! नेपाल बाढी सूचना!</h5>
+                        <small class="strikedate-ashok"><i
+                                class="material-icons" style= "margin-right: 4px;"> date_range</i><div style = "margin-top:3px">Strike Date:
+                                    2019-07-26</div></small>
+                    </div>
+                    <div class="divider"></div>
+                    <p>श्रावण १० आगामी ३ दिन मुख्य नदीमा बहाव सतर्कता तह भन्दा तलै रहने, आज र भोली ईलाम,झापा,मोरङ,धनकुटा,दोलखा, रामेछाप, सिन्धुली,स्याङजा, कास्की,लमजुङ, गोरखा,कैलाली,कञ्चनपुर,दाङ,सुर्खेत, डडेलधुरा र आसपास केही साना खोलामा आकस्मिक बहाव को
+                        संभावना, तटिय क्षेत्रमा सतर्क रहौ @NEOCOfficial<a href="https://twitter.com/DHM_FloodEWS?lang=en">....read more</a></p>
+                </div>
+
+                <div class="section section-ashok">
+                    <div style="margin-bottom: 10px;">
+                        <h5 style="display: inline !important"> The Kathmandu Post.</h5>
+                        <small class="strikedate-ashok"><i
+                                class="material-icons " style= "margin-right: 4px;"> date_range</i><div style = "margin-top:3px">Strike Date:
+                                    2019-07-26</div></small>
+                    </div>
+                    <div class="divider"></div>
+                    <p>25 children killed by floods—and careless construction—in Province 2 over nine days<a href="https://kathmandupost.com/province-no-2/2019/07/23/25-children-killed-by-floods-and-careless-construction-in-province-2-over-nine-days">....read more
+                        </a>
+                    </p>
+
+                </div>
+                <div class="section section-ashok">
+                    <div style="margin-bottom: 10px;">
+                        <h5 style="display: inline !important"> The Himiliyan Times.</h5>
+                        <small class="strikedate-ashok"><i
+                                class="material-icons " style= "margin-right: 4px;"> date_range</i><div style = "margin-top:3px">Strike Date:
+                                    2019-07-26</div></small>
+                    </div>
+                    <div class="divider"></div>
+                    <p>RAJBIRAJ: More than two weeks have passed, Rajkumar Jha of Tilathi Koiladi Rural Municipality-1 in Saptari district has not been able to sleep well.<a href="https://thehimalayantimes.com/nepal/saptari-flood-sleepless-nights-for-tilathi-locals/">....read
+                        more
+                        </a>
+                    </p>
+
+                </div> -->
+                <!--Dispaly section ends here-->
+
+                <!-- <ul class=" pagination">
+                    <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+                    <li class="active"><a href="#!">1</a></li>
+                    <li class="waves-effect"><a href="#!">2</a></li>
+                    <li class="waves-effect"><a href="#!">3</a></li>
+                    <li class="waves-effect"><a href="#!">4</a></li>
+                    <li class="waves-effect"><a href="#!">5</a></li>
+                    <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+                </ul> -->
+
+            </div>
+
+
+        </div>
+    </div>
+    <div class="row section row-ashok">
+        <div class="col s15 m12">
+            <h5 style="padding-left: 10px;"> Dangerous Disaster in History</h5>
+        </div>
+
+        <div class="col s15 m4 ">
+
+            <div class="card grey lighten-2 ">
+                <div class="card-content ">
+                    <span class="card-title ">Indonesia volcano 'could erupt any time'</span>
+                    <img src="img/card3.jpg" style="height: 230px;width: 353px;">
+                    <p>An eruption by the Indonesian volcano Mount Merapi has left 25 people dead, with thousands homeless after having to flee their homes.<a href="https://www.bbc.com/news/av/world-asia-pacific-11633584/indonesia-volcano-could-erupt-any-time">...read more</a></p>.
+
+                </div>
+
+                <div class="card-action grey darken-3">
+                    <a class=" white-text" href="https://www.bbc.co.uk/newsround/48856373?intlink_from_url=https://www.bbc.com/news/topics/c340r9zgpnkt/volcanoes&link_location=live-reporting-story ">BBC: Indonesia volcano
+          </a>
+
+                </div>
+            </div>
+        </div>
+        <div class=" col s15 m4 ">
+            <div class="card grey lighten-2  ">
+                <div class="card-content ">
+                    <span class="card-title ">Nepal earthquake: Hundreds die, many feared trapped</span>
+                    <img src="img/card2.jpg" style="height: 230px;width: 353px;">
+                    <p> The 7.8 magnitude quake struck an area between the capital, Kathmandu, and the city of Pokhara, the US Geological Survey said.Tremors were felt across the region, with further loss
+                        <a href="https://www.bbc.com/news/world-asia-32461019">...read more</a>
+                    </p>
+                </div>
+                <div class="card-action grey darken-3 ">
+                    <a href="https://www.bbc.com/news/world-asia-32511429" class=" white-text">BBC: Nepal earthquake</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col s15 m4 ">
+            <div class="card grey lighten-2  ">
+                <div class="card-content ">
+                    <span class="card-title ">Tornado-hit houses to be built by July-end</span>
+                    <img src="img/card1.jpg" style="height: 230px;width: 353px;">
+
+                    <p>A tornado had hit the two districts on March 31 killing at least 28, injuring hundreds and rendering thousands homeless. Many of the tornado victims are still living in makeshift tents.<a href="https://thehimalayantimes.com/nepal/tornado-hit-houses-to-be-built-by-july-end/">...read more</a></p>
+
+                </div>
+
+                <div class="card-action grey darken-3">
+                    <a href="https://www.bbc.com/news/world-asia-47772482 " class=" white-text">BBC: Tornado-hit at
+                        Nepal</a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- BODY ENDS HERE -->
+    <div style="margin-top: 30px; "></div>
+
+    <!-- Footer Section -->
+    <footer class="page-footer " style="background-color:#0e3569; ">
+        <div style="padding: 18px 50px; ">
+            <div class="row ">
+                <div class="col l5 s12 jong-rev1">
+                    <h5 class="white-text ">Disaster News Classification</h5>
+                    <p class="grey-text text-lighten-4 ">This website is a project for classifying disaster related news using neural network by MSCSK students of Pulchowk campus. For this this site take RSS feed from BBC and classify only disaster related news.</p>
+                </div>
+                <div class="col l2 offset-l1 s12 ">
+                    <h5 class="white-text ">Referenced</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3 " href="#! ">Crisis</a></li>
+                        <li><a class="grey-text text-lighten-3 " href="#! ">BBC</a></li>
+                        <li><a class="grey-text text-lighten-3 " href="#! ">Twitter</a></li>
+                        <li><a class="grey-text text-lighten-3 " href="#! ">Python Org</a></li>
+                    </ul>
+                </div>
+                <div class="col l2 offset-l1 s12 ">
+                    <h5 class="white-text ">Other Source</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3 " href="#! ">Deep Learning</a></li>
+                        <li><a class="grey-text text-lighten-3 " href="#! ">Machine Learning</a></li>
+                        <li><a class="grey-text text-lighten-3 " href="#! ">Pulchowk Campus</a></li>
+                        <li><a class="grey-text text-lighten-3 " href="#! ">Data Source</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-copyright " style="background-color:#03244e; ">
+            <div class="card-content valign center-block ">
+                © 2019 Pulchowk Campus. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+
+    <div class="div-nang" id="div-nang" onclick="topFunction()">
+        <i class="material-icons"><b>keyboard_arrow_up</b></i>
+    </div>
+
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script>
+        $('.dropdown-trigger').dropdown();
+
+        $('.carousel.carousel-slider').carousel({
+            fullWidth: true,
+            indicators: true
+
+        });
+
+        setInterval(function() {
+            $('.carousel').carousel('next');
+        }, 2000);
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                document.getElementById("div-nang").style.display = "block";
+            } else {
+                document.getElementById("div-nang").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+</body>
+
+
+</html>
