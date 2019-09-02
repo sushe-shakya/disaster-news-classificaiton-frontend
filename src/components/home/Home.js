@@ -50,31 +50,43 @@ class Home extends React.Component {
     buildColumns() {
         return [
             {
-                Header: "News",
+                // Header: () => <strong>More</strong>,
+                Header: <h2>News</h2>,
                 accessor: "news",
                 resizable: false,
                 sortable: false,
+                minWidth: 300,
                 className: "",
                 headerClassName: "no-sort",
                 Cell: props => <span>{props.value}</span>
             },
             {
-                Header: "Date",
+                Header: <h2>Date</h2>,
                 accessor: "date",
                 resizable: false,
-                minWidth: 200,
+                minWidth: 80,
                 sortable: false,
                 headerClassName: "no-sort",
                 Cell: props => <span>{props.value}</span>
             },
             {
-                Header: "Link",
+                Header: <h2>Link</h2>,
                 accessor: "link",
                 resizable: false,
-                minWidth: 200,
+                minWidth: 100,
+                sortable: false,
+                headerClassName: "no-sort",
+                Cell: e =><a href={e.value}> {e.value} </a>
+            },
+            {
+                Header: <h2>Disaster Type</h2>,
+                accessor: "disasterType",
+                resizable: false,
+                minWidth: 100,
                 sortable: false,
                 headerClassName: "no-sort"
             }
+
         ];
     }
 
@@ -130,7 +142,7 @@ class Home extends React.Component {
                             columns={this.buildColumns()}
                             showPagination={true}
                             defaultPageSize={15}
-                            filterable={true}
+                            filterable={false}
                             pageSizeOptions={[5, 10, 15, 20]}
                         />
                         {/* <div className="block hidden-md">
