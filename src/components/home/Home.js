@@ -4,6 +4,7 @@ import "react-table/react-table.css";
 import ReactTable from "react-table";
 import Select from "react-select";
 import Spinner from "../common/Spinner";
+import swal from 'sweetalert';
 
 const options = [
     { value: "hydrological", label: "Hydrological" },
@@ -103,6 +104,8 @@ class Home extends React.Component {
 
             this.setState({ data: response.data, isRequesting: false });
         } catch (error) {
+            console.log(error)
+            swal("No news under this category")
             this.setState({
                 isRequesting: false
             });
@@ -119,7 +122,7 @@ class Home extends React.Component {
                 {this.state.data.length > 0 && (
                     <React.Fragment>
                         <div className="form-group">
-                            <label class="form-group__label form-group__label--block">
+                            <label className="form-group__label form-group__label--block">
                                 Targeted area
                             </label>
 
