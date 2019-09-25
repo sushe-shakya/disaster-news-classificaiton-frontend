@@ -1,0 +1,144 @@
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+nav a {
+    font-size: 16px !important;
+}
+
+.a-jong {
+    position: relative;
+}
+
+.a-jong:hover {
+    background: transparent !important;
+}
+
+.a-jong::before {
+    /* content: ''; */
+    display: block;
+    opacity: 0;
+}
+
+.a-jong:hover::before,
+a.a-jong.active::before {
+    content: '';
+    /* display: block; */
+    position: absolute;
+    bottom: 18px;
+    left: 15px;
+    height: 2px;
+    opacity: 1;
+    background: red;
+    z-index: 100000;
+    width: calc(100% - 30px);
+}
+
+.div-nang {
+    display: none;
+    width: 45px;
+    height: 45px;
+    background: #076aef;
+    border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 1000;
+    line-height: 58px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.hover-ashok:hover {
+    background-color: #e0e0e0;
+}
+
+.font-ashok {
+    font-family: 'Arial', 'Times New Roman', Times, serif;
+}
+
+.section-ashok {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.strikedate-ashok {
+    float: right;
+    display: inline-flex;
+    align-items: center;
+}
+
+.row-ashok {
+    background-color: #fff;
+    padding: 20px 40px;
+}
+
+h5 {
+    font-family: 'Arial', 'Times New Roman', Times, serif !important;
+    font-size: 24px !important;
+    line-height: 110% !important;
+    margin: 16.4px 0 9.84px !important;
+    color: rgba(0, 0, 0, .87) !important;
+}
+
+.collection-item {
+    font-family: 'Arial', 'Times New Roman', Times, serif !important;
+    font-size: 15px !important;
+    color: rgba(0, 0, 0, .87) !important;
+}
+
+.collection-item h6 {
+    font-size: 17.25px !important;
+    line-height: 110%;
+    margin: 11.5px 0 7.9px !important;
+}
+
+h5 {
+    font-family: 'Arial', 'Times New Roman', Times, serif !important;
+}
+
+footer {
+    padding: 0 0 !important;
+    font-size: 16px !important;
+}
+
+footer h5 {
+    font-size: 24px !important;
+    margin: 40px 0 15px;
+}
+
+.jong-rev1 {
+    margin-left: 10px !important;
+}
+
+.card-content p {
+    margin-top: 10px !important;
+    font-size: 16px !important;
+}
+
+.card-action a {
+    font-size: 16px !important;
+}
+
+#root .container {
+    width: 100% !important;
+    padding: 0 !important;
+    margin-top: 40px;
+}
+
+#root .form-group__label {
+    font-size: 24px !important;
+}
+
+#root .Popup__inner__footer button {
+    float: none !important;
+    line-height: 10px !important;
+}
+
+#root .Popup__inner__footer {
+    float: right !important;
+    padding-left: 0;
+}
