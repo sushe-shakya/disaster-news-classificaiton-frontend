@@ -1,7 +1,9 @@
 import config from "../config";
 import http from "../utils/http";
 
-const { api } = config;
+const {
+  api
+} = config;
 
 /**
  * Get users.
@@ -9,10 +11,10 @@ const { api } = config;
  * @return {Object}
  */
 export async function fetchNews() {
-    const url = `${api.endpoints.all}`;
-    const response = await http.get(url);
+  const url = `${api.endpoints.all}`;
+  const response = await http.get(url);
 
-    return response;
+  return response;
 }
 
 /**
@@ -21,8 +23,8 @@ export async function fetchNews() {
  * @return {Object}
  */
 export async function filterNews(data) {
-    const url = `${api.endpoints.filter}`;
-    const response = await http.post(url, data);
+  const url = `${api.endpoints.filter}` + data;
+  const response = await http.get(url);
 
-    return response;
+  return response;
 }

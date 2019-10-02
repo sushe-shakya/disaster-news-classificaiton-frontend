@@ -97,9 +97,10 @@ class Home extends React.Component {
             isRequesting: true
         });
         try {
-            const data = {
-                disasterType: this.state.selectedOption.value
-            };
+            // const data = {
+            //     disasterType: this.state.selectedOption.value
+            // };
+            const data = this.state.selectedOption.value;
             const response = await newsService.filterNews(data);
 
             this.setState({ data: response.data, isRequesting: false });
