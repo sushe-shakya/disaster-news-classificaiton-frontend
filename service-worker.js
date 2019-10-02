@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sushe-shakya/disaster-news-classification-frontend/precache-manifest.e3490e84339b862700655371c1577897.js"
+  "/sushe-shakya/disaster-news-classification-frontend/precache-manifest.44591832c60f33ce50836f80bab41064.js"
 );
 
 self.addEventListener('message', (event) => {
