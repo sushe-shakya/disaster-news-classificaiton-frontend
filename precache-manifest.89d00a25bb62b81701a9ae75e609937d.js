@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a818a5919933733edbb6345fe20f5e10",
+    "revision": "32d5e242498370cfdbecdeb01d1e9fbe",
     "url": "/sushe-shakya/disaster-news-classification-frontend/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sushe-shakya/disaster-news-classification-frontend/static/css/2.d4b275d9.chunk.css"
   },
   {
-    "revision": "0822098835116f562e94",
+    "revision": "d02d93bcf1d36276ed85",
     "url": "/sushe-shakya/disaster-news-classification-frontend/static/css/main.19152d21.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sushe-shakya/disaster-news-classification-frontend/static/js/2.8fe17a55.chunk.js"
   },
   {
-    "revision": "0822098835116f562e94",
-    "url": "/sushe-shakya/disaster-news-classification-frontend/static/js/main.d564d581.chunk.js"
+    "revision": "d02d93bcf1d36276ed85",
+    "url": "/sushe-shakya/disaster-news-classification-frontend/static/js/main.93423e3c.chunk.js"
   },
   {
     "revision": "ba02e7a9bee89c21e715",
