@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/sushe-shakya/disaster-news-classification-frontend/static/css/main.19152d21.chunk.css",
-    "main.js": "/sushe-shakya/disaster-news-classification-frontend/static/js/main.93423e3c.chunk.js",
-    "main.js.map": "/sushe-shakya/disaster-news-classification-frontend/static/js/main.93423e3c.chunk.js.map",
-    "runtime~main.js": "/sushe-shakya/disaster-news-classification-frontend/static/js/runtime~main.3d411ee5.js",
-    "runtime~main.js.map": "/sushe-shakya/disaster-news-classification-frontend/static/js/runtime~main.3d411ee5.js.map",
-    "static/css/2.d4b275d9.chunk.css": "/sushe-shakya/disaster-news-classification-frontend/static/css/2.d4b275d9.chunk.css",
-    "static/js/2.8fe17a55.chunk.js": "/sushe-shakya/disaster-news-classification-frontend/static/js/2.8fe17a55.chunk.js",
-    "static/js/2.8fe17a55.chunk.js.map": "/sushe-shakya/disaster-news-classification-frontend/static/js/2.8fe17a55.chunk.js.map",
-    "index.html": "/sushe-shakya/disaster-news-classification-frontend/index.html",
-    "precache-manifest.89d00a25bb62b81701a9ae75e609937d.js": "/sushe-shakya/disaster-news-classification-frontend/precache-manifest.89d00a25bb62b81701a9ae75e609937d.js",
-    "service-worker.js": "/sushe-shakya/disaster-news-classification-frontend/service-worker.js",
-    "static/css/2.d4b275d9.chunk.css.map": "/sushe-shakya/disaster-news-classification-frontend/static/css/2.d4b275d9.chunk.css.map",
-    "static/css/main.19152d21.chunk.css.map": "/sushe-shakya/disaster-news-classification-frontend/static/css/main.19152d21.chunk.css.map",
-    "static/media/style.css": "/sushe-shakya/disaster-news-classification-frontend/static/media/bg-login.1d8592b1.jpg"
+    "main.css": "/disaster-news-classification-frontend/static/css/main.de3528b3.chunk.css",
+    "main.js": "/disaster-news-classification-frontend/static/js/main.cf4fee98.chunk.js",
+    "main.js.map": "/disaster-news-classification-frontend/static/js/main.cf4fee98.chunk.js.map",
+    "runtime~main.js": "/disaster-news-classification-frontend/static/js/runtime~main.fe14def7.js",
+    "runtime~main.js.map": "/disaster-news-classification-frontend/static/js/runtime~main.fe14def7.js.map",
+    "static/css/2.d4b275d9.chunk.css": "/disaster-news-classification-frontend/static/css/2.d4b275d9.chunk.css",
+    "static/js/2.8fe17a55.chunk.js": "/disaster-news-classification-frontend/static/js/2.8fe17a55.chunk.js",
+    "static/js/2.8fe17a55.chunk.js.map": "/disaster-news-classification-frontend/static/js/2.8fe17a55.chunk.js.map",
+    "index.html": "/disaster-news-classification-frontend/index.html",
+    "precache-manifest.143ca3579ac9fd88eca3698f47291eb6.js": "/disaster-news-classification-frontend/precache-manifest.143ca3579ac9fd88eca3698f47291eb6.js",
+    "service-worker.js": "/disaster-news-classification-frontend/service-worker.js",
+    "static/css/2.d4b275d9.chunk.css.map": "/disaster-news-classification-frontend/static/css/2.d4b275d9.chunk.css.map",
+    "static/css/main.de3528b3.chunk.css.map": "/disaster-news-classification-frontend/static/css/main.de3528b3.chunk.css.map",
+    "static/media/style.css": "/disaster-news-classification-frontend/static/media/bg-login.1d8592b1.jpg"
   }
 }
